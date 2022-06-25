@@ -259,15 +259,14 @@ header .button_two:hover {
   padding-left: 150px;
 }
 .social img {
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
-    brightness(102);
+  background-color: #fff;
+  border-radius: 100px;
+  box-shadow: inset 0 0 0 0 hsl(322, 70%, 64%);
+  transition: ease-out 0.7s;
 }
-.social a img {
-  font-size: 30px;
-  line-height: 80px;
-  position: relative;
-  z-index: 10;
-  transition: color 0.5s;
+.social a img:hover {
+  box-shadow: inset 200px 0 0 0 hsl(322, 70%, 64%);
+  border-radius: 100px;
 }
 .copy {
   color: rgb(233, 224, 224);
