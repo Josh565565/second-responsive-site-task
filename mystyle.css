@@ -42,7 +42,463 @@ header h2 {
   font-family: "Poppins", sans-serif;
 }
 .break_2 {
+  display: none;* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.wrapper {
+  width: 375px;
+  margin: 0 auto;
+}
+header {
+  display: block;
+  width: 390px;
+  margin-left: -19px;
+  padding: 30px 30px;
+  background-image: url("images/bg-hero-mobile.svg");
+  height: 650px;
+  background-color: hsl(193, 100%, 96%);
+}
+header .logo_img {
+  width: 80px;
+  height: 20px;
+}
+header .button_one {
+  background-color: white;
+  width: 120px;
+  height: 30px;
+  border: 0;
+  border-radius: 20px;
+  float: right;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 white;
+  transition: ease-out 0.3s;
+}
+header .button_one:hover {
+  box-shadow: inset 200px 0 0 0 rgb(240, 234, 234);
+}
+header h2 {
+  padding-top: 50px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.break_2 {
   display: none;
+}
+header .para_one {
+  padding-top: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+header .image_hed {
+  width: 340px;
+  padding: 60px 0px 00px 20px;
+}
+header .button_two {
+  margin-top: 30px;
+  height: 40px;
+  width: 240px;
+  margin-left: 70px;
+  border-radius: 20px;
+  border: 0;
+  background-color: hsl(322, 88%, 52%);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 hsl(322, 70%, 64%);
+  transition: ease-out 0.3s;
+}
+header .button_two:hover {
+  box-shadow: inset 240px 0 0 0 hsl(322, 70%, 64%);
+}
+
+/* header ends here */
+
+/* main starts here */
+.second_div {
+  width: 100%;
+  padding: 5px 3px;
+  height: 520px;
+  margin: 60px 0px 0px 19px;
+  border-radius: 20px;
+  border: 0.5px groove;
+}
+.first_img {
+  width: 300px;
+  padding: 50px;
+}
+.second_div h2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.second_div .para_two {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.break_two {
+  display: none;
+}
+/* second div */
+.third_div {
+  width: 100%;
+  padding: 5px 3px;
+  height: 500px;
+  margin: 60px 0px 0px 19px;
+  border-radius: 20px;
+  border: 0.5px groove;
+}
+.third_img {
+  width: 300px;
+  padding: 50px;
+}
+.third_div h2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.third_div .para_three {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+/* forth div */
+.forth_div {
+  width: 100%;
+  padding: 5px 3px;
+  height: 500px;
+  margin: 60px 0px 0px 19px;
+  border-radius: 20px;
+  border: 0.5px groove;
+}
+.forth_img {
+  width: 300px;
+  padding: 50px;
+}
+.forth_div h2 {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.forth_div .para_four {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* footer starts here */
+
+.first_footer_div {
+  float: left;
+  margin: 100px 0px 20px 30px;
+  padding-top: 40px;
+  width: 360px;
+  height: 120px;
+  border: 0.5px groove;
+  border-radius: 20px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+.footer_button {
+  width: 200px;
+  height: 40px;
+  margin-top: 30px;
+  border: 0;
+  border-radius: 20px;
+  background-color: hsl(322, 88%, 52%);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 hsl(322, 53%, 60%);
+  transition: ease-out 0.3s;
+}
+.footer_button:hover {
+  box-shadow: inset 200px 0 0 0 hsl(322, 70%, 64%);
+}
+.second_footer_div {
+  display: block;
+  width: 100%;
+  padding: 30px 20px;
+  height: 830px;
+  background-color: hsl(192, 100%, 9%);
+  margin-top: 200px;
+}
+.footer_logo {
+  margin-top: 20px;
+  width: 150px;
+  color: #fff;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
+    brightness(102);
+}
+.first_list {
+  margin-top: 50px;
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+}
+.first_list li:first-child {
+  float: left;
+}
+.new_one {
+  padding-left: 50px;
+  color: rgb(226, 195, 195);
+  font-size: 20px;
+}
+.first_list li:nth-child(3) {
+  float: left;
+  margin-top: 30px;
+}
+.new_two {
+  padding-top: 30px;
+  padding-left: 50px;
+  color: rgb(207, 191, 191);
+  font-size: 20px;
+}
+.first_list li:nth-child(5) {
+  float: left;
+  margin-top: 20px;
+}
+.new_three {
+  padding-top: 15px;
+  padding-left: 50px;
+  color: rgb(216, 202, 202);
+  font-size: 20px;
+}
+.second_list {
+  width: fit-content;
+  list-style-type: none;
+  padding-top: 30px;
+  text-transform: none;
+  font-family: "Open Sans", sans-serif;
+}
+.second_list li {
+  width: fit-content;
+  list-style-type: none;
+  padding-top: 30px;
+}
+.second_list li a {
+  width: fit-content;
+  float: left;
+  list-style-type: none;
+  padding-top: 30px;
+  color: #fff;
+  position: relative;
+}
+.second_list li a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  transition: width 0.6s;
+}
+.second_list li a:hover::after {
+  width: 100%;
+}
+.social {
+  padding-top: 170px;
+  padding-left: 150px;
+}
+.social img {
+  background-color: #fff;
+  border-radius: 100px;
+  box-shadow: inset 0 0 0 0 hsl(322, 70%, 64%);
+  transition: ease-out 0.7s;
+}
+.social a img:hover {
+  box-shadow: inset 200px 0 0 0 hsl(322, 70%, 64%);
+  border-radius: 100px;
+}
+.copy {
+  color: rgb(233, 224, 224);
+  padding-left: 60px;
+  padding-top: 20px;
+}
+
+@media only screen and (min-width: 900px) {
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  header {
+    width: 100%;
+    background-image: url("images/bg-hero-desktop.svg");
+    height: 480px;
+    background-color: hsl(193, 79%, 85%);
+  }
+  header .logo_img {
+    margin-left: 30px;
+    width: 100px;
+    height: 20px;
+  }
+  header .button_one {
+    margin-right: 50px;
+    cursor: pointer;
+  }
+  header h2 {
+    margin-top: 60px;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 200;
+  }
+  header .para_one {
+    margin: 0;
+    margin-left: 30px;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 17px;
+  }
+  #break_1 {
+    display: none;
+  }
+  .break_2 {
+    display: block;
+  }
+  header .image_hed {
+    width: 580px;
+    margin-top: -350px;
+    margin-right: 50px;
+    float: right;
+  }
+  header .button_two {
+    margin-top: 15px;
+    height: 40px;
+    width: 240px;
+    margin-left: 30px;
+  }
+  /* main starts here */
+  main {
+    width: 100%;
+  }
+
+  .second_div {
+    width: 90%;
+    height: 320px;
+    padding: 5px 3px;
+    margin: 60px 0px 0px 50px;
+    border-radius: 20px;
+    border: 2px groove;
+  }
+  .first_img {
+    float: right;
+    width: 300px;
+    padding: 50px;
+  }
+  .second_div h2 {
+    text-align: left;
+    margin-top: 100px;
+    padding-left: 96px;
+  }
+  .second_div .para_two {
+    padding-left: 100px;
+    text-align: justify;
+    inline-size: 400px;
+    overflow-wrap: break-word;
+  }
+  .break_one {
+    display: none;
+  }
+  /* second box */
+  .third_div {
+    width: 90%;
+    height: 320px;
+    padding: 5px 3px;
+    margin: 60px 0px 0px 50px;
+    border-radius: 20px;
+    border: 2px groove;
+  }
+  .third_img {
+    width: 300px;
+    padding: 50px;
+  }
+  .third_div h2 {
+    text-align: right;
+    margin-top: -200px;
+    padding-left: 6px;
+    margin-right: 226px;
+  }
+  .third_div .para_three {
+    text-align: right;
+    padding-top: 20px;
+    margin-left: 700px;
+    text-align: justify;
+    inline-size: 400px;
+    overflow-wrap: break-word;
+  }
+  .forth_div {
+    width: 90%;
+    height: 320px;
+    padding: 5px 3px;
+    margin: 60px 0px 0px 50px;
+    border-radius: 20px;
+    border: 2px groove;
+  }
+  .forth_img {
+    float: right;
+    width: 300px;
+    padding: 50px;
+  }
+  .forth_div h2 {
+    text-align: left;
+    margin-top: 100px;
+    padding-left: 96px;
+  }
+  .forth_div .para_four {
+    padding-left: 100px;
+    text-align: justify;
+    inline-size: 400px;
+    overflow-wrap: break-word;
+  }
+  /* footer starts here */
+  .first_footer_div {
+    /* float: left; */
+    margin: 90px 0px 20px 430px;
+    padding-top: 40px;
+    width: 560px;
+    height: 150px;
+    border: 2px groove;
+    border-radius: 20px;
+  }
+
+  .second_footer_div {
+    width: 100%px;
+    padding: 10px;
+    height: 500px;
+    margin-top: 200px;
+  }
+
+
+  .footer_logo {
+    margin-top: 50px;
+    /* padding-right: 90px; */
+    padding-left: 220px;
+  }
+  .first_list {
+    padding-left: 220px;
+  }
+  .second_list {
+    float: right;
+    margin: -270px 300px 0px 0px;
+  }
+  .social {
+    float: right;
+    margin: -400px 100px 0px 200px;
+  }
+  .copy {
+    float: right;
+    margin: 0px 40px 0px 0px;
+  }
+  .second_list_halve {
+    float: left;
+    margin: -180px 0px 0px 200px;
+  }
+}
+
 }
 header .para_one {
   padding-top: 30px;
