@@ -13,7 +13,7 @@ header {
   margin-left: -19px;
   padding: 30px 30px;
   background-image: url("images/bg-hero-mobile.svg");
-  height: 6&0px;
+  height: 680px;
   background-color: hsl(193, 100%, 96%);
 }
 header .logo_img {
@@ -81,7 +81,7 @@ header .button_two:hover {
 .second_div {
   width: 100%;
   padding: 5px 3px;
-  height: 520px;
+  height: 530px;
   margin: 60px 0px 0px 19px;
   border-radius: 20px;
   border: 0.5px groove;
@@ -128,7 +128,7 @@ header .button_two:hover {
 .forth_div {
   width: 100%;
   padding: 5px 3px;
-  height: 500px;
+  height: 520px;
   margin: 60px 0px 0px 19px;
   border-radius: 20px;
   border: 0.5px groove;
@@ -286,7 +286,7 @@ header .button_two:hover {
   header {
     width: 98.5%;
     background-image: url("images/bg-hero-desktop.svg");
-    height: 490px;
+    height: 500px;
     background-color: hsl(193, 79%, 85%);
   }
   header .logo_img {
