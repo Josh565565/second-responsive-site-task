@@ -13,7 +13,7 @@ header {
   margin-left: -19px;
   padding: 30px 30px;
   background-image: url("images/bg-hero-mobile.svg");
-  height: 660px;
+  height: 6&0px;
   background-color: hsl(193, 100%, 96%);
 }
 header .logo_img {
@@ -286,7 +286,7 @@ header .button_two:hover {
   header {
     width: 98.5%;
     background-image: url("images/bg-hero-desktop.svg");
-    height: 480px;
+    height: 490px;
     background-color: hsl(193, 79%, 85%);
   }
   header .logo_img {
