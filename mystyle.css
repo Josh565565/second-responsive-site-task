@@ -61,7 +61,6 @@
     float: right;
   }
   header .button_two {
-    color: white;
     margin-top: 25px;
     height: 40px;
     width: 240px;
@@ -162,7 +161,7 @@
   /* footer starts here */
   footer {
     width: 100%px;
-    height: 510px;
+    height: 500px;
     background-color: hsl(192, 100%, 9%);
     margin-top: 150px;
     position: relative;
@@ -302,18 +301,18 @@
   }
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1000px) {
   .wrapper {
     width: 500px;
     margin: 0 auto;
   }
   header {
     display: block;
-    width: 560px;
+    width: 510px;
     margin-left: -19px;
     padding: 30px 30px;
     background-image: url("images/bg-hero-mobile.svg");
-    height: 690px;
+    height: 730px;
     background-color: hsl(193, 100%, 96%);
   }
   header .logo_img {
@@ -445,7 +444,7 @@
 
   /* footer starts here */
   footer {
-    width: 580px;
+    width: 550px;
     height: 830px;
     background-color: hsl(192, 100%, 9%);
     margin-top: 150px;
