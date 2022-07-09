@@ -309,7 +309,7 @@
   }
   header {
     display: block;
-    width: 520px;
+    width: 540px;
     margin-left: -19px;
     padding: 30px 30px;
     background-image: url("images/bg-hero-mobile.svg");
@@ -446,7 +446,7 @@
   /* footer starts here */
   footer {
     width: 550px;
-    height: 830px;
+    height: 840px;
     background-color: hsl(192, 100%, 9%);
     margin-top: 150px;
     position: relative;
